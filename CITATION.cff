@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this software or research, please cite it using the preferred citation below."
+authors:
+  - family-names: "Basavaraj"
+    given-names: "R M"
+  - family-names: "Kumar"
+    given-names: "Aryan Bharat"
+title: "TRIAGE: Reliability- and Load-Conditioned Escalation for Two-Tier LLM Serving with a Semantic Evidence Judge"
+version: 1.0.0
+date-released: 2026-10-31
+url: "https://github.com/Basavarajearlybird/TRIAGE-Reliability-And-Load-Conditioned-Escalation"
+preferred-citation:
+  type: article
+  title: "TRIAGE: Reliability- and Load-Conditioned Escalation for Two-Tier LLM Serving with a Semantic Evidence Judge"
+  authors:
+  - family-names: "Basavaraj"
+    given-names: "R M"
+  - family-names: "Kumar"
+    given-names: "Aryan Bharat"
+  year: 2026
+  month: 10
+  journal: "arXiv preprint arXiv:2611.01174"
+  url: "https://arxiv.org/abs/2611.01174"
