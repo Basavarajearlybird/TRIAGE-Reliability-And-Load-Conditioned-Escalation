@@ -385,7 +385,7 @@ cd campaign
 
 # 0. One-time: fetch the external datasets (licences forbid redistributing them here)
 #    RGB            -> git clone https://github.com/chen700564/RGB ../RGB
-#    #    RouterBench    -> download routerbench_0shot.pkl from huggingface.co/datasets/withmartian/routerbench, then run:
+#    RouterBench    -> download routerbench_0shot.pkl from huggingface.co/datasets/withmartian/routerbench, then run:
 #                      python scripts/routerbench_to_parquet.py path/to/routerbench_0shot.pkl
 #                      (writes ../external/routerbench/routerbench_0shot.parquet; expected sha256 ba4f77f1…65d36d)
 #    HallusionBench -> place HallusionBench.json + images in ../external/hallusionbench/
@@ -393,9 +393,8 @@ cd campaign
 # 1. Verify Proposition 1 and regenerate Table 2 / Figure 2 (RGB corruption & wrong-answer AUROCs from cached Jev logs)
 PYTHONPATH=..:. python scripts/c1_jev.py --offline
 
-# Note: step 1 needs the served RGB answers 
-(runs/c1_rgb/c1_rgb/c1_rgb/served.jsonl), which are not in this repo; 
-the computed results are in runs/c1_jev/T3_jev.md.
+# Note: step 1 needs the served RGB answers (runs/c1_rgb/c1_rgb/c1_rgb/served.jsonl),
+# which are not in this repo; the computed results are in runs/c1_jev/T3_jev.md.
 
 # 2. Regenerate Table 3 & Doubly Robust Off-Policy Evaluation (RouterBench 3 model pairs, n = 1,708)
 PYTHONPATH=..:. python scripts/routerbench_eval.py --offline
