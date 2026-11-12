@@ -393,6 +393,10 @@ cd campaign
 # 1. Verify Proposition 1 and regenerate Table 2 / Figure 2 (RGB corruption & wrong-answer AUROCs from cached Jev logs)
 PYTHONPATH=..:. python scripts/c1_jev.py --offline
 
+# Note: step 1 needs the served RGB answers 
+(runs/c1_rgb/c1_rgb/c1_rgb/served.jsonl), which are not in this repo; 
+the computed results are in runs/c1_jev/T3_jev.md.
+
 # 2. Regenerate Table 3 & Doubly Robust Off-Policy Evaluation (RouterBench 3 model pairs, n = 1,708)
 PYTHONPATH=..:. python scripts/routerbench_eval.py --offline
 
