@@ -8,4 +8,4 @@ matplotlib>=3.8
 scikit-learn>=1.4      # isotonic calibration for F5 only
 pytest>=8.0
 typesafe-sdk>=0.7.5
-pyarrow>=14.0
+pyarrow>=14,<21
