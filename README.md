@@ -94,6 +94,8 @@ flowchart TD
 
 ## 1. Theoretical Identification & The Semantic Evidence Judge (`Proposition 1` & `Jₑᵥ`)
 
+**Disclosure:** The authors have no affiliation with or funding from TypeSafe. Jev (`jev-1.13.0`) was used as a paid third-party API, and every judge output used in the paper is cached in `campaign/runs/`, so all analyses can be rerun without the API.
+
 Most deployed model routers decide from the prompt `q` alone before generation begins. In Retrieval-Augmented Generation (RAG) and multimodal VQA, however, the information that determines whether the small model will fail frequently resides in the **attached evidence `E`** (retrieved passages or visual inputs) rather than the question string `q`.
 
 ### 1.1 Proposition 1: Exact Chance Bound for Prompt-Only Routers
