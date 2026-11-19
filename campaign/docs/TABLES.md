@@ -62,4 +62,4 @@ Monotone in headroom: **NO**.
 
 ## Sources that could not be read
 
-- NOTE: 2 T3_rgb.json candidates; used C:\triage-routing\triage-improv\campaign\runs\c1_rgb\c1_rgb\T3_rgb.json (n_pos=200). Rehearsal output should live under runs/c1_rgb_mock.
+- NOTE: 2 T3_rgb.json candidates; used runs/c1_rgb/c1_rgb/T3_rgb.json (n_pos=200). Rehearsal output should live under runs/c1_rgb_mock.
