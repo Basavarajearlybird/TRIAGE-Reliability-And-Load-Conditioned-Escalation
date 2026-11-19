@@ -6,8 +6,8 @@ authors:
   - family-names: "Kumar"
     given-names: "Aryan Bharat"
 title: "TRIAGE: Reliability- and Load-Conditioned Escalation for Two-Tier LLM Serving with a Semantic Evidence Judge"
-version: 1.0.0
-date-released: 2026-10-31
+version: 1.0.2
+date-released: 2026-11-19
 url: "https://github.com/Basavarajearlybird/TRIAGE-Reliability-And-Load-Conditioned-Escalation"
 preferred-citation:
   type: article
